@@ -2,6 +2,12 @@ from array import array
 from hashlib import new
 import itertools
 
+'''
+Given a list of integers (arr) and integer (val), find (n) integers in (arr) that add up to the (val).
+Return a dictionary with keys aas indices of the (n) elements and the values as the value of the elements.
+Assume that each input would have exactly one solution. If no solutions exist, then return an empty dictionary.
+'''
+
 
 def findWithSum(arr, val, n=2):
     list_of_combos = []
